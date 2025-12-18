@@ -13,7 +13,7 @@ Since September 2021, NVIDIA has stopped releasing old WHQL releases that was us
 7. Disable Test Mode: `bcdedit /set {CURRENT} testsigning off`
 
 ## Support
-Tested on NVIDIA Geforce 970 running on Windows 10 Enterprise LTSB 2016. I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.  
+Tested on NVIDIA Geforce GTX 970 running on Windows 10 Enterprise LTSB 2016. I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.  
 
 ## Credit
 * Jevil7452 for providing the guide on [how to patch a driver to run on older versions of Windows on WinClassic](https://winclassic.net/thread/1797/patch-driver-older-versions-windows)
