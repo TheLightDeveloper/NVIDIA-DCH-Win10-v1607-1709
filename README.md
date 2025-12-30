@@ -15,7 +15,8 @@ Since September 2021, NVIDIA has stopped releasing old WHQL releases that was us
 ## Support
 * Tested on NVIDIA Geforce GTX 970 running on Windows 10 Enterprise LTSB 2016. 
 * Does NOT work on Windows 10 version 1703 and 1709 (Creators Update and Fall Creators Update) as it refuses to install for unknown reasons
-I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.  
+
+I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.
 
 ## Credit
 * Jevil7452 for providing the guide on [how to patch a driver to run on older versions of Windows on WinClassic](https://winclassic.net/thread/1797/patch-driver-older-versions-windows)
