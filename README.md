@@ -1,5 +1,5 @@
 ![Screenshot](image.png)
-# Patched DCH NVIDIA Geforce driver for Windows 10 version 1607-1709
+# Patched DCH NVIDIA Geforce driver for Windows 10 version 1607
 
 Since September 2021, NVIDIA has stopped releasing old WHQL releases that was used primarily on older versions of Windows prior to Windows 10, version 1803. It is possible to patch to force DCH drivers to install on older Windows 10 releases since early support was added sometime during the development of Windows 10 Anniversary Update. This was done by modifying the *.inf files to allow the installer to run on a unsupported build. The last known version that works with this workaround is 537.58, released on October 10th, 2023.
 
@@ -13,7 +13,9 @@ Since September 2021, NVIDIA has stopped releasing old WHQL releases that was us
 7. Disable Test Mode: `bcdedit /set {CURRENT} testsigning off`
 
 ## Support
-Tested on NVIDIA Geforce GTX 970 running on Windows 10 Enterprise LTSB 2016. I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.  
+* Tested on NVIDIA Geforce GTX 970 running on Windows 10 Enterprise LTSB 2016. 
+* Does NOT work on Windows 10 version 1703 and 1709 (Creators Update and Fall Creators Update) as it refuses to install for unknown reasons
+I cannot guarantee that newer Geforce GPUs may work with this patch as I don't have the appropriate hardware to test it on.  
 
 ## Credit
 * Jevil7452 for providing the guide on [how to patch a driver to run on older versions of Windows on WinClassic](https://winclassic.net/thread/1797/patch-driver-older-versions-windows)
